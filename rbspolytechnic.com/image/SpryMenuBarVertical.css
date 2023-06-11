@@ -1,0 +1,59 @@
+UL.MenuBarVertical {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 15.2em; CURSOR: default; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; LIST-STYLE-TYPE: none
+}
+UL.MenuBarActive {
+	Z-INDEX: 1000
+}
+UL.MenuBarVertical LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 15.2em; CURSOR: pointer; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: relative; TEXT-ALIGN: left
+}
+UL.MenuBarVertical UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 100%; Z-INDEX: 1020; LEFT: -1000em; PADDING-BOTTOM: 0px; MARGIN: -5% 0px 0px 95%; WIDTH: 15.4em; CURSOR: default; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 0px
+}
+UL.MenuBarVertical UL.MenuBarSubmenuVisible {
+	LEFT: 0px
+}
+UL.MenuBarVertical UL LI {
+	WIDTH: 15.4em
+}
+UL.MenuBarVertical {
+	BORDER-RIGHT: #a02923 1px solid; BORDER-TOP: #a02923 1px solid; BORDER-LEFT: #a02923 1px solid; BORDER-BOTTOM: #a02923 1px solid
+}
+UL.MenuBarVertical UL {
+	BORDER-RIGHT: #a02923 1px solid; BORDER-TOP: #a02923 1px solid; BORDER-LEFT: #a02923 1px solid; BORDER-BOTTOM: #a02923 1px solid
+}
+UL.MenuBarVertical A {
+	PADDING-RIGHT: 0.75em; DISPLAY: block; PADDING-LEFT: 0.75em; PADDING-BOTTOM: 0.5em; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 0.5em; BORDER-BOTTOM: #b73028 1px solid; BACKGROUND-COLOR: #a02923; TEXT-DECORATION: none
+}
+UL.MenuBarVertical A:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #d71d22
+}
+UL.MenuBarVertical A:unknown {
+	COLOR: #fff; BACKGROUND-COLOR: #d71d22
+}
+UL.MenuBarVertical A.MenuBarItemHover {
+	COLOR: #fff; BACKGROUND-COLOR: #d71d22
+}
+UL.MenuBarVertical A.MenuBarItemSubmenuHover {
+	COLOR: #fff; BACKGROUND-COLOR: #d71d22
+}
+UL.MenuBarVertical A.MenuBarSubmenuVisible {
+	COLOR: #fff; BACKGROUND-COLOR: #d71d22
+}
+UL.MenuBarVertical A.MenuBarItemSubmenu {
+	BACKGROUND-POSITION: 95% 50%; BACKGROUND-IMAGE: url(SpryMenuBarRight.html); BACKGROUND-REPEAT: no-repeat
+}
+UL.MenuBarVertical A.MenuBarItemSubmenuHover {
+	BACKGROUND-POSITION: 95% 50%; BACKGROUND-IMAGE: url(SpryMenuBarRightHover.html); BACKGROUND-REPEAT: no-repeat
+}
+UL.MenuBarVertical IFRAME {
+	Z-INDEX: 1010; FILTER: alpha(opacity:0.1); POSITION: absolute
+}
+
+@media Screen, Projection    
+{
+UL.MenuBarVertical LI.MenuBarItemIE {
+	DISPLAY: inline; BACKGROUND: #fff; FLOAT: left
+}
+
+}
